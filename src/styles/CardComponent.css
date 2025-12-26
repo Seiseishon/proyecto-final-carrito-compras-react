@@ -1,0 +1,65 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+    list-style: none;
+    max-width: 900px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-description {
+    margin: 0 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.card-price {
+    margin: 0;
+    font-weight: bold;
+}
+
+.remove-button {
+    background-color: rgb(83, 34, 34);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.add-button {
+    background-color: rgb(29, 92, 29);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.add-button:hover {
+    background-color: rgb(57, 163, 57);
+}
+
+.remove-button:hover {
+    background-color: rgb(156, 52, 52);
+}
